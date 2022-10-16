@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.divLinks {
+    background-color: blue;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+}
+
+#leftSidebar {
+    background-color: blue;
+}
+
+#leftSidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+#leftSidebar a:hover {
+    color: #cc9900;
+    text-decoration: none;
+}
+
+.topics {
+    color: black;
+    font-size: 25px;
+}
