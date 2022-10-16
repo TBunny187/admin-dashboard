@@ -2,6 +2,16 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: antiquewhite;
+}
+
+div {
+    margin: 10px;
+}
+
+#divLinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .divLinks {
@@ -9,23 +19,51 @@ body {
     border: 0;
     border-radius: 15px;
     color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.divLinks:hover {
+    background-color: black;
+    color: #c0c0c0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 #leftSidebar {
     background-color: blue;
+    font-size: 1.2rem;
+}
+
+#logo {
+    color: white;
+    font-size: 30px;
 }
 
 #leftSidebar a {
     color: white;
-    text-decoration: none;
 }
 
 #leftSidebar a:hover {
-    color: #cc9900;
-    text-decoration: none;
+    color: #c0c0c0;
+}
+
+#header, #card {
+    background-color: white;
+    border-radius: 10px;
 }
 
 .topics {
     color: black;
     font-size: 25px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #c0c0c0;
 }
