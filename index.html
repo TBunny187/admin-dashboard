@@ -9,8 +9,8 @@
         <div id="container">
             <div id="header" class="shadow">
                 <div id="searchbar">Search Bar</div>
-                <div id="Greeting">Greeting</div>
                 <div id="name">Name</div>
+                <div id="greeting">Greeting</div>
                 <div id="divLinks">
                     <a href=""><div class="divLinks">New</div></a>
                     <a href=""><div class="divLinks">Upload</div></a>
@@ -20,21 +20,26 @@
             <div id="leftSidebar">
                 <div id="logo">Dashboard</div>
                 <div id="nav">
-                    <a href="">Home</a>
-                    <a href="">Profile</a>
-                    <a href="">Messages</a>
-                    <a href="">History</a>
-                    <a href="">Tasks</a>
-                    <a href="">Communities</a>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">Messages</a></li>
+                        <li><a href="">History</a></li>
+                        <li><a href="">Tasks</a></li>
+                        <li><a href="">Communities</a></li>
+                    </ul>
                 </div>
                 <div id="settings">
-                    <a href="">Settings</a>
-                    <a href="">Support</a>
-                    <a href="">Privacy</a>
+                    <ul>
+                        <li><a href="">Settings</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
                 </div>
             </div>
                 <div id="main">
-                    <p class="topics">Your Projects</p>
+                    <span class="topics first">Your Projects</span>
+                    <div id="mainCards">
                     <div class="card">
                         <p class="topics">Super Cool Project</p>
                         <p>
@@ -88,30 +93,25 @@
                             Pellentesque mollis nec sem vel sliquam.
                         </p>
                     </div>
+                    </div>
                 </div>
                 <div id="rightSidebar">
                     <p class="topics">Announcements</p>
                     <div class="card">
-                        <ul>
-                            <li>
                                 <p class="topics">Site Maintenance</p>
                                 <p>
                                     Vestibulum condimentium tellus lacuc,
                                     in accumsan elit maximus ac. Donec
                                     henderit sodales congue...
                                 </p>
-                            </li>
                             <hr>
-                            <li>
                                 <p class="topics">Community Share Day</p>
                                 <p>
                                     Nam vel lectus tincidunt, retrum nulla
                                     eu, omare libero. Alliquam dictum
                                     accumsan porttitor...
                                 </p>
-                            </li>
                             <hr>
-                            <li>
                                 <p class="topics">Updated Privacy Policy</p>
                                 <p>
                                     Phasellus efficitur nisi eget elit
@@ -119,8 +119,6 @@
                                     auctor. Cras fringilla sagittis sem in
                                     mattis...
                                 </p>
-                            </li>
-                        </ul>
                     </div>
                     <p class="topics">Trending</p>
                     <div class="card">
