@@ -1,25 +1,15 @@
 # admin-dashboard
 
-Creating an 'admin dashboard' using mostly grids.
+Page completed to the best of my current abilities.
+I will keep this to continue to tinker with at a later time, also
+as a reminder of how to semi-efficiently set up a grid layout.
 
-Main container grid:
-    rows = 2 - 1fr 5fr
-    columns = 3 - 1fr 4fr 1fr
+There are a few things I don't entirely like about the setup,
+but that's something I will have to come back to later on, and
+mess around with some more, to really solidify my knowlege.
 
-Left Sidebar grid:
-    rows = 3 - gap 30px
-    colunns = 1
+But, for now, the basic layout is a lot more than I was able to do
+just 2 weeks ago, and I'm quite happy with it.
 
-Header container grid:
-    rows = 2 - 1fr 1fr
-    columns = 2 - 3fr 1fr
-
-Main grid:
-    rows 2 - 1fr 1fr
-    columns = auto-fill
-    gap 15px
-    margin 10px
-
-Right Sidebar grid:
-    rows = 2 - 1fr 1fr
-    columns = 1
+As I continue to learn and grow, I will likely come back
+and tinker with this, as I said, to make it even better.
